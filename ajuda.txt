@@ -1,0 +1,13 @@
+Projeto: Minimercado Bouki
+
+Descrição:
+Este site foi desenvolvido com o objetivo de apresentar os produtos e serviços oferecidos por um minimercado fictício chamado Bouki. A página foi construída utilizando apenas HTML, como parte de um projeto inicial de desenvolvimento web.
+
+Funcionalidades:
+- Exibição de produtos separados por categorias (Fruteira, Padaria e Bebidas).
+- Informações sobre preços e imagens ilustrativas dos produtos.
+- Descrição dos serviços oferecidos, como tele-entrega.
+- Navegação através de links no cabeçalho e no rodapé.
+- Informações institucionais e de contato no rodapé da página.
+
+Este projeto será futuramente aprimorado com recursos de estilo (CSS), interatividade (JavaScript) e outras funcionalidades.
