@@ -12,12 +12,11 @@
     <header>                                            <!-- Cabeçalho -->
         <h1>Minimercado Bouki</h1>                      <!-- Titulo grande -->
         <p>O melhor preço e qualidade para você!</p>
-        <nav>                                           <!-- Define menu de navegacao -->
-            <ul>                                        <!-- Cria uma lista não ordenada (sem números)  -->
-                <li><a href="#">Início</a></li>         <!-- Define item -->
-                <li><a href="#">Produtos</a></li>       <!-- href - cria um link para outra pagina do site -->
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+        <nav>                                                   <!-- Define menu de navegacao -->
+            <ul>                                                <!-- Cria uma lista não ordenada (sem números)  -->
+                <li><a href="#produtos">Produtos</a></li>       <!-- href - cria um link para outra pagina do site -->
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +24,7 @@
 
     
     <main>
-        <h2>Produtos</h2>                                                              <!-- Corpo -->
+        <h2 id="produtos">Produtos</h2>                                                              <!-- Corpo -->
         <section>                                                                      <!-- agrupar diferentes tipos de elementos do mesmo tema-->
             <h3>Fruteira</h3>
             <div>                                                                      <!-- separa a página web em divisões ou seções --> 
@@ -58,7 +57,7 @@
             </div>
         </section>
 
-        <h2>Serviços</h2>
+        <h2 id="servicos">Serviços</h2>
         <section>
             <p>Tele-entrega - 3 Produtos no máximo por entraga | Cobrados os valores dos produtos + R$ 5,00 de frete</p>
         </section>
@@ -68,15 +67,15 @@
     <footer>
         <h2>Rodapé</h2>
         <p>2025 Minimercado Bouki - Todos os direitos reservados.</p>
-        <p>Contato: contato@minimercadobouki.com</p>
+        <p id="contato">Contato: contato@minimercadobouki.com</p>
+        <p>Desenvolvido por Venâncio</p>
 
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </footer>
 </body>
